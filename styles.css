@@ -117,14 +117,18 @@ body {
 
 .hot {
     display: flex;
+    margin-top: 25px;
     background-color: #E554730D;
     align-items: center;
-    justify-content: center;
-    gap: 186px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
 }
 
 .hot-rose {
-    padding-top: 90px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 300px;
 
 }
 
