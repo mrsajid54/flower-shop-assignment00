@@ -1,4 +1,9 @@
 /* common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
@@ -24,7 +29,7 @@ body {
 }
 
 .banner-tittle {
-    font-size: 80px;
+    font-size: 70px;
     font-style: normal;
     font-weight: 800;
     margin-bottom: 0;
@@ -48,4 +53,107 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+/* featured styles */
+.feature-sec {
+    margin-top: 150px;
+    align-items: center;
+    padding: 0 600px;
+
+}
+
+.feature-tittle {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.feature-discription {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+
+}
+
+.box {
+
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+/* img {
+    height:200px;
+    padding-bottom: 0;
+} */
+.box {
+    max-height: px;
+}
+
+.pink {
+    padding: 95px 50px 0px 50px;
+    background-color: #A7216226;
+}
+
+.pink2 {
+
+    padding: 125px 2px 5px 50px;
+    background-color: #0597A026;
+
+}
+
+.pink3 {
+    padding: 95px 40px 40px 40px;
+    background-color: #0597A026;
+}
+
+.hot {
+    display: flex;
+    background-color: #E554730D;
+    align-items: center;
+    justify-content: center;
+    gap: 186px;
+}
+
+.hot-rose {
+    padding-top: 90px;
+
+}
+
+.hot-tittle {
+    text-align: center;
+    padding-top: 150px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+.hot-discription {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.off {
+    color: #E55473;
+}
+.hotbox{
+
+    text-align: center;
+    margin: 0 auto;
 }
